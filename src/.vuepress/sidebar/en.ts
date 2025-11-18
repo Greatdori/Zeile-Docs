@@ -4,5 +4,7 @@ export const enSidebar = sidebar({
   "/": [
     "",
     "GettingStarted",
+    "TypeSystem",
+    "ActionSequence"
   ]
 });
