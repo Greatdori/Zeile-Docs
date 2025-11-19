@@ -5,12 +5,11 @@ yarn-error.log*
 pnpm-debug.log*
 yarn.lock
 pnpm-lock.yaml
-.vuepress/dist/
+src/.vuepress/dist/
 docs/.vuepress/dist/
-.vuepress/.temp/
+src/.vuepress/.temp/
 docs/.vuepress/.temp/
-.vuepress/.cache/
-docs/.vuepress/.cache/
+src/.vuepress/.cache/
 dist/
 temp/
 cache/
