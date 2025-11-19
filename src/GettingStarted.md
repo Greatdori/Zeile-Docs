@@ -182,7 +182,8 @@ say("Nice to meet you!", by: mySoyo)
 
 ::: note
 The name of a value can be anything, even a group of emoji!
-However, it can't start with a number, and can't contain punctuations.
+However, it can't start with a number, and can't contain punctuations
+except underscores(`_`).
 :::
 
 We call the name of a value a “variable”.
@@ -194,7 +195,6 @@ Let's define more variables and make a short story!
 ```zeile
 let anon = Character.anon
 let soyo = Character.soyo
-let coolSoyo = Character(id: 39, live2d: "039_live_event_289_ur")
 
 let soyoHome = "scenario102/bg01021.png"
 

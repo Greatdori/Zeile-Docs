@@ -88,7 +88,7 @@ Character.init(id: 39)
 
 This line of code does the exactly same thing as the previous code.
 
-When Zeile is infering the type for you, you have to type the `.init`
+When Zeile is inferring the type for you, you have to type the `.init`
 explicitly:
 
 ```zeile

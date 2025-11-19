@@ -5,7 +5,8 @@ export const routes = Object.fromEntries([
   ["/GettingStarted.html", { loader: () => import(/* webpackChunkName: "GettingStarted.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/GettingStarted.html.js"), meta: {"title":"Getting Started"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/index.html.js"), meta: {"title":"The Zeile Scripting Language"} }],
   ["/TypeSystem.html", { loader: () => import(/* webpackChunkName: "TypeSystem.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/TypeSystem.html.js"), meta: {"title":"The Type System"} }],
-  ["/zh/", { loader: () => import(/* webpackChunkName: "zh_index.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/zh/index.html.js"), meta: {"title":"项目主页","icon":"house"} }],
+  ["/zh/GettingStarted.html", { loader: () => import(/* webpackChunkName: "zh_GettingStarted.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/zh/GettingStarted.html.js"), meta: {"title":"Zeile 入门"} }],
+  ["/zh/", { loader: () => import(/* webpackChunkName: "zh_index.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/zh/index.html.js"), meta: {"title":"Zeile 脚本语言"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/memz233/Desktop/Projects/Greatdori/Zeile-Docs/src/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
